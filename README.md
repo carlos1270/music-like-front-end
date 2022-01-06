@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/njLNN0Y/01.png" width="400"></p>
+<p align="center"><img src="https://i.ibb.co/njLNN0Y/01.png"></p>
 
 # Music Like
 
