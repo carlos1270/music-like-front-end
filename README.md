@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.ibb.co/njLNN0Y/01.png" width="400"></p>
+
 # Music Like
 
 Music like is an open-source project with the aim of creating a platform where the community of people share their music completely free of charge, showing their tastes and helping independent singers to conquer space in the market.
