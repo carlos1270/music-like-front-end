@@ -1,0 +1,71 @@
+.footer {
+    position:relative;
+    bottom: 0px;
+    height: auto;
+    width:100%;
+    background-color:rgb(3, 3, 3);
+}
+
+.footer .container {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(143, 28, 127);
+    text-decoration: none;
+}
+
+.coluna {
+    text-align: left;
+    font-size: 18px;
+}
+
+.linha-vertical {
+    position: relative;
+    height: 100px;/*Altura da linha*/
+    border-left: 1px solid white;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.botao-play {
+    background-color: rgb(143, 28, 127);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 234px;
+    margin: -25px;
+}
+
+.botao-play:hover {
+    background-color: rgb(94, 3, 86);
+    text-decoration: none;
+}
+
+.icone-play {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 2px;
+    padding: 10px;
+}
+
+#informacoes {
+    padding: 15px;
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(140, 153, 167, 0.25);
+}

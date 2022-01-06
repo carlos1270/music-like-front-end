@@ -1,0 +1,28 @@
+.backgroud-color-default {
+    background-color: rgb(143, 28, 127);
+}
+
+.btn-rosa-claro {
+    background-color: rgb(143, 28, 127);
+    color: white;
+    border-radius: 5px;
+    padding: 8px; 
+    margin: 5px;
+}
+
+.btn-rosa-claro:hover {
+    background-color: rgb(94, 3, 86);
+    text-decoration: none;
+}
+
+.btn-rosa-claro:active {
+    background-color: rgb(65, 2, 59);
+    color: white;
+    border-radius: 5px;
+    padding: 8px; 
+    margin: 5px;
+}
+
+.btn-active {
+    font-weight: bolder;
+}
