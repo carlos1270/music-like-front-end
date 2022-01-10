@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: rgb(143, 28, 127);
+    --secondary: rgb(94, 3, 86);
+    --secondary-transparent: rgba(94, 3, 87, 0.4);
+}
+
+.btn-default {
+    width: 100%;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-default:hover {
+    background-color: var(--secondary);
+    box-shadow:  var(--secondary);
+    border-color:  var(--secondary);
+}
+
+.btn-default:focus + .btn-default, .btn-default:focus {
+    color: #fff;
+    background-color:  var(--secondary);
+    border-color:  var(--secondary);
+    box-shadow: 0 0 0 0.25rem var(--secondary-transparent);
+}
+
+.btn-default:checked + .btn-default, .btn-default:active + .btn-default, .btn-default:active, .btn-default.active, .show > .btn-default.dropdown-toggle {
+    color: #fff;
+    background-color:  var(--secondary);
+    border-color:  var(--secondary);
+}
+
+.btn-default:checked + .btn-default:focus, .btn-default:active + .btn-default:focus, .btn-default:active:focus, .btn-default.active:focus, .show > .btn-default.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem var(--secondary-transparent);
+}
+
+.texto {
+    text-align: justify;
+}

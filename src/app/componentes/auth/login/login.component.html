@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row justify-content-center mt-5 mb-5">
+        <div class="col-md-5">
+            <div class="card text-center">
+                <div class="card-header fs-3">
+                    Login
+                </div>
+                <div class="card-body text-start">
+                    <form id="login-form" action="">
+                        <div class="form-row mb-3">
+                            <div class="col-md-12 form-group">
+                                <label for="email" class="mb-2">E-mail</label>
+                                <input type="text" class="form-control" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-12 form-group">
+                                <label for="senha" class="mb-2">Senha</label>
+                                <input type="text" class="form-control" name="senha" id="senha">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="btn-group" role="group" data-bs-toggle="buttons">
+                                    <label>
+                                        <input type="checkbox" name="" id="" checked autocomplete="off"> 
+                                        Lembrar de mim
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-6 text-end">
+                                <a routerLink="/recuperar-senha">Esqueceu sua senha?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <button class="btn btn-success btn-default" type="submit" form="login-form">Logar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
