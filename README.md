@@ -4,7 +4,7 @@
 
 Music like is an open-source project with the aim of creating a platform where the community of people share their music completely free of charge, showing their tastes and helping independent singers to conquer space in the market.
 
-This repository refers to the front-end part of the application developed in angular. If you are interested in viewing the back-end part you can [click here](#).
+This repository refers to the front-end part of the application developed in angular. If you are interested in viewing the back-end part you can [click here](https://github.com/carlos1270/music-like-back-end).
 
 # Music Like Front-End
 
